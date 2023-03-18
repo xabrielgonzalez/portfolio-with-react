@@ -1,0 +1,148 @@
+.containerskill{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .containerskill ul li{
+    display: inline-block;
+    margin: 0 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+  
+  .containerskill ul li a{
+    display: inline-block;
+    padding:  0 10px;
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 30px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+    transition: .2s;
+  }
+  
+  
+  .containerskill ul:hover a{
+    filter: blur(2px);
+  }
+  
+  .containerskill ul li a:hover{
+    transform:  translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+  }
+  
+  .containerskill ul li .html5:hover{
+    background: var(--html5);
+  }
+  
+  .containerskill ul li .js:hover{
+    background: var(--js);
+  }
+  
+  .containerskill ul li .css3:hover{
+    background: var(--css3);
+  }
+  
+  .containerskill ul li .github:hover{
+    background: var(--github);
+  }
+  
+  .containerskill ul li .git:hover{
+    background: var(--git);
+  }
+  
+  .containerskill ul li .boostrap:hover{
+    background: var(--boostrap);
+  }
+  
+  .containerskill ul li .react:hover{
+    background: var(--react);
+  }
+  
+  .containerskill ul li .node:hover{
+    background: var(--node);
+  }
+  
+  .containerskill ul li .java:hover{
+    background: var(--java);
+  }
+  
+  .containerskill ul li .python:hover{
+    background: var(--python);
+  }
+  
+  .containerskill ul li .raspberry:hover{
+    background: var(--raspberry);
+  }
+  
+  .html5{
+    color: var(--html5);
+    font-weight: bold;
+  }
+  
+  .js{
+    color: var(--js);
+    font-weight: bold;
+  }
+  
+  .css3{
+    color: var(--css3);
+    font-weight: bold;
+  }
+  
+  .github{
+    color: var(--github);
+    font-weight: bold;
+  }
+  
+  .git{
+    color: var(--git);
+    font-weight: bold;
+  }
+  
+  .boostrap{
+    color: var(--boostrap);
+    font-weight: bold;
+  }
+  
+  .react{
+    color: var(--react);
+    font-weight: bold;
+  }
+  
+  .node{
+    color: var(--node);
+    font-weight: bold;
+  }
+  
+  .java{
+    color: var(--java);
+    font-weight: bold;
+  }
+  
+  .python{
+    color: var(--python);
+    font-weight: bold;
+  }
+  
+  .raspberry{
+    color: var(--raspberry);
+    font-weight: bold;
+  }
+  
+  .techinalskiil{
+    margin: 90px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #skill{
+    text-align: center;
+    padding-top: 20px;
+  }

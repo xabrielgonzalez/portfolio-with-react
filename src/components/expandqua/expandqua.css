@@ -1,0 +1,66 @@
+.boxgrid2{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: auto;
+}
+
+
+.boxgrid2 h2{
+    padding-left: 70%;
+    padding-right: 70%;
+
+}
+
+.container3{
+  padding: 20px;
+}
+
+.experience{
+    text-align: center;
+}
+
+#experience {
+  display: flex;
+
+}
+
+.projects{
+    padding-left: 12%;
+}
+
+.projects-container {
+    margin-top: 15px;
+    margin-left: 60px;
+    padding-left: 100px;
+  }
+  
+  .projects-container li,span{
+    font-weight: bold;
+  }
+  
+  .projects-container hr {
+    border: 1px solid lightgray;
+    width: 75%;
+    margin-left: 5px;
+  }
+  
+  .project-card {
+    margin: 0 15px 15px 30px;
+    padding-bottom: 5px;
+  }
+  
+  .project-card h3 {
+    font-size: 20px;
+    margin-left: 5px;
+  
+  }
+  
+  .project-card li {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  
+  .job {
+    padding-left: 5px;
+  }

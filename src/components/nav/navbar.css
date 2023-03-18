@@ -1,0 +1,84 @@
+nav {
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    user-select: none;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #181823;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FF4A4A;
+    transition: .3s;
+}
+
+h2{
+  pointer-events: none;
+  user-select:none ;
+}
+
+.surname {
+    color: #FF4A4A;
+}
+
+button {
+    border: none;
+    background: #0A66C2;
+    padding: 12px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .3s;
+  }
+  
+  button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+  }
+  
+  .giti {
+    border: none;
+    background: #24292F;
+    padding: 12px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .3s;
+  }
+  
+  .giti:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+  }
+  
+  .envelope{
+    border: none;
+    background:red;
+    padding: 12px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .3s;
+  }
+  
+  .envelope:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+  }

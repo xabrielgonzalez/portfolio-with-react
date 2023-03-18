@@ -1,0 +1,110 @@
+*{
+  font-family: 'Josefin Sans';
+}
+
+:root {
+  --html5: #F64A1D ;
+  --js: #a39200 ;
+  --css3: #3595CF ;
+  --github: #CC4E66 ;
+  --git: #E94E31 ;
+  --boostrap: #7511F1 ;
+  --react: #22b0a8 ;
+  --node: #6FA560 ;
+  --java: #D30C12 ;
+  --python: #274E70 ;
+  --raspberry: #E61F7B ;
+  --cadad: #146C94 ;
+  --net:#8F43EE ;
+}
+
+
+.html5{
+  color: var(--html5);
+  font-weight: bold;
+}
+
+.js{
+  color: var(--js);
+  font-weight: bold;
+}
+
+.css3{
+  color: var(--css3);
+  font-weight: bold;
+}
+
+.github{
+  color: var(--github);
+  font-weight: bold;
+}
+
+.git{
+  color: var(--git);
+  font-weight: bold;
+}
+
+.boostrap{
+  color: var(--boostrap);
+  font-weight: bold;
+}
+
+.react{
+  color: var(--react);
+  font-weight: bold;
+}
+
+.node{
+  color: var(--node);
+  font-weight: bold;
+}
+
+.java{
+  color: var(--java);
+  font-weight: bold;
+}
+
+.python{
+  color: var(--python);
+  font-weight: bold;
+}
+
+.raspberry{
+  color: var(--raspberry);
+  font-weight: bold;
+}
+
+.abmc{
+  color: var(--cadad);
+  font-weight: bold;
+}
+
+.abmnet{
+  color:var(--net);
+  font-weight: bold;
+}
+
+body{
+  background-color:#F8EAD8;
+}
+
+
+body::-webkit-scrollbar{
+  width: 10px;
+  background-color:#F8EAD8;
+}
+body::-webkit-scrollbar-thumb{
+  background: rgb(255, 247, 176);
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  background: rgb(255, 242, 129);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
